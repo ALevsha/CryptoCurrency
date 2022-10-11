@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 interface RetrofitGetInterface {
-    @GET("v1/ticker")
+    @GET("8cf167fd-88e1-425a-8faf-f51fa8c6d1bf")
     fun getCryptocurrency(): Observable<List<ResponseItem>>
 
     companion object Factory {
